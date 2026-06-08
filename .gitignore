@@ -1,0 +1,96 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual env
+.env
+.venv/
+venv/
+env/
+anaconda3/
+
+# cache/output/debug
+.cache/
+debug/
+Log/
+output/
+runs/
+output_segmented_camera/
+
+# build files
+build/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# compiled files
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.exp
+*.a
+*.bin
+
+# big model files
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.ckpt
+*.weights
+
+# data/video/archive
+data/
+datasets/
+weights/
+checkpoints/
+templates/
+templates_5.20/
+video/
+*.mp4
+*.avi
+*.bag
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.npy
+*.npz
+
+# third-party / downloaded repos
+Cameras/mecheye/
+Cameras/mecheye.zip
+grounding-dino-base/
+nvdiffrast/
+pybind11/
+DinoV2/
+DINOv2/
+SAM2/
+sam2/
+sam3/
+
+# local model folders
+本机ollama/
+本机qwen/
+远程qwen/
+
+# blender
+blender-*-linux-x64/
+
+# ignore large local model folders
+/DinoV2/
+/DINOv2/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
